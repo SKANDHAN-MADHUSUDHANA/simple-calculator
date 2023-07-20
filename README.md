@@ -1,2 +1,2 @@
 # simple-calculator
-Created with CodeSandbox
+created using html, css, and javasript
