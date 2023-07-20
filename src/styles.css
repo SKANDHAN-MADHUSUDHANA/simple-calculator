@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+}
+#app {
+  width: 50vw;
+  height: 69vh;
+  background-color: rgb(216, 225, 226);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12.5px;
+  margin-top: 16.5vh;
+  margin-left: 25vw;
+  box-shadow: 19px 19px 19px 10px rgba(0, 0, 0, 0.5);
+}
+
+#displayContainer {
+  height: 15vh;
+  width: 50vw;
+  background-color: rgb(166, 185, 204);
+  margin-bottom: 3vh;
+  border-radius: 12.5px 12.5px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#display {
+  width: 42vw;
+  height: 8vh;
+  background-color: rgb(216, 225, 226);
+  border-radius: 5px;
+  color: black;
+  font-size: 4.5vw;
+  font-weight: bold;
+  text-align: right;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  overflow: hidden;
+}
+
+.key-rows {
+  height: 8vh;
+  width: 45vw;
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.keys {
+  height: 8vh;
+  width: 10vw;
+  background-color: rgb(34, 35, 36);
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.3s;
+  text-align: center;
+  font-size: 3.3vw;
+  font-weight: bolder;
+  color: grey;
+}
+
+.keys:hover {
+  box-shadow: none;
+}
+
+.blackKey {
+  color: black;
+}
